@@ -693,6 +693,8 @@ export interface ApiEmployeeEmployee extends Schema.CollectionType {
     JobTitle: Attribute.String;
     Headshot: Attribute.Media & Attribute.Required;
     DateStarted: Attribute.Date;
+    Slug: Attribute.UID<'api::employee.employee', 'Name'>;
+    Bio: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

@@ -29,6 +29,13 @@
     "DateStarted": {
       "type": "date",
       "required": false
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "Bio": {
+      "type": "richtext"
     }
   }
 }
