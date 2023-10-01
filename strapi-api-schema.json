@@ -1,0 +1,20 @@
+[
+	{
+		"kind": "collectionType",
+		"collectionName": "listings",
+		"info": {
+			"singularName": "listing",
+			"pluralName": "listings",
+			"displayName": "Listings"
+		},
+		"options": {
+			"draftAndPublish": true
+		},
+		"pluginOptions": {},
+		"attributes": {
+			"Content": {
+				"type": "blocks"
+			}
+		}
+	}
+]

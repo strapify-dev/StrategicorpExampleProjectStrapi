@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_page_contents",
+  "info": {
+    "singularName": "landing-page-content",
+    "pluralName": "landing-page-contents",
+    "displayName": "Landing Page Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Article": {
+      "type": "richtext"
+    },
+    "Tagline": {
+      "type": "string"
+    },
+    "Background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
